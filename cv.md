@@ -43,5 +43,5 @@ alert( fruits[2] ); // Банан
 ```
 
 ## Languages
-***
+
 * English - A2
