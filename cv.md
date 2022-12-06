@@ -12,6 +12,7 @@
 ## About Me:
 ***
 Hello! I am 26 years old, I work as a manual tester. There is a goal to become a front-end developer.
+This is where my journey to senior and maybe even full stack begins.
 ***
 ## Skills and Proficiency:
 ***
