@@ -1,2 +1,2 @@
-https://antonevo.github.io/rsschool-cv/cv <br/>
-https://antonevo.github.io/rsschool-cv/
+
+https://rolling-scopes-school.github.io/antonevo-JSFEPRESCHOOL2023Q2/library/
