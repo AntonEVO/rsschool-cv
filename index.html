@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CV Anton Efremov</title>
+    <link rel="icon" href="./assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+        <div class="toggle">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="left-side">
+            <div class="section section-profile" id="profile">
+                <img src="./assets/Myfoto.jpg" alt="Photo of Anton Efremov" class="section-profile-logo">
+            </div>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">
+                        Russia
+                    </li>
+                    <li class="section-item contacts-item">
+                        Email: <a href="mailto:anton.efremov12@yandex.ru" title="email">anton.efremov12@yandex.ru</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Github: <a href="https://github.com/AntonEVO" title="github">AntonEVO</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Telegram: <a href="https://t.me/Anton_efv" title="github">@Anton_efv</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Discord: <a href="https://discord." title="github">Anton Efremov</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        FreeCodeCamp<span> - freeCodeCamp HTML</span></li>
+                    <li class="section-item">
+                        FreeCodeCamp<span> - freeCodeCamp CSS</span></li>
+                </ul>
+            </section>
+        </div>
+        <div class="right-side">
+            <section class="page-title">
+                <h1 class="main-title">Anton<br>Efremov</h1>
+                <p> Junior Frontend Developer</p>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>Hello! I am 26 years old, I work as a manual tester.
+                    There is a goal to become a front-end developer.
+                    This is where my journey to senior and maybe even full stack begins.
+                </p>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills__list">
+                    <li>Figma, Git, Webpack <br> <progress max="100" value="40"></progress></li>
+                    <li>HTML/HTML5<br> <progress max="100" value="70"></progress></li>
+                    <li> CSS3/SCSS <br> <progress max="100" value="70"></progress></li>
+                    <li> BEM <br> <progress max="100" value="40"></progress></li>
+                    <li>JavaScript/ES6 <br> <progress max="100" value="15"></progress></li>
+                    <li>GitHub <br> <progress max="100" value="15"></progress></li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre"><code>function factorial(n) {
+              if(n &lt; 0) return null;
+                if (n &lt;= 1) return 1;
+                return n * factorial(n-1);
+                 }</code></pre>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <a href="https://AntonEVO.github.io/rsschool-cv/cv">My CV projects</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>2013-2017
+                    Volga State Technological University -
+                    <br>2017-2019
+                    Volga State Technological University <br>
+                    2022-2023 The Rolling Scopes Junior Software Frontend Engineer
+                </p>
+            </section>
+            <section class="section section-english" id="english">
+                <h2 class="section-title">English</h2>
+                <p>A2 - Pre-Intermediate</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <a class="footer-github" href="https://github.com/AntonEVO" target="_blank">
+            My GitHub
+        </a>
+        <p class="footer-year">2023</p>
+        <a class="footer-rsschool" href="https://rs.school/js/" target="_blank">
+            <img src="assets/rs_school_js.svg" width="86" height="32" alt="RS School">
+        </a>
+    </footer>
+</body>
+
+</html>
